@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "clean": "rimraf dist",
+    "prebuild": "yarn clean",
     "build": "bob",
     "prepack": "bob-update-version",
     "test": "jest --passWithNoTests --passWithNoTests --no-watchman --config ../../../jest.config.js"
@@ -33,7 +34,6 @@
   "dependencies": {
     "@graphql-toolkit/common": "0.7.4",
     "graphql-import": "0.7.1",
-    "is-valid-path": "0.1.1",
     "tslib": "1.10.0"
   },
   "publishConfig": {
