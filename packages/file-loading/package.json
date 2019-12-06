@@ -40,6 +40,7 @@
     "globby": "10.0.1"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "directory": "dist"
   }
 }

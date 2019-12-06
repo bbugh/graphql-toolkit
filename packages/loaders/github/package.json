@@ -36,6 +36,7 @@
     "cross-fetch": "3.0.4"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "directory": "dist"
   }
 }
