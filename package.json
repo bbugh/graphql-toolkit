@@ -10,7 +10,7 @@
     "prerelease:canary": "yarn test-and-build",
     "release": "lerna publish --exact --force-publish=\"*\"",
     "release:canary": "lerna publish --force-publish=\"*\"  --preid \"alpha-`git rev-parse --short HEAD`\" --canary --exact",
-    "ci:release:canary": "lerna publish --force-publish=\"*\"  --preid \"alpha-`git rev-parse --short HEAD`\" --canary --exact --yes"
+    "ci:release:canary": "lerna publish --force-publish=\"*\"  --preid \"alpha-`git rev-parse --short HEAD`\" --canary --exact --yes --registry https://registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}"
   },
   "husky": {
     "hooks": {
