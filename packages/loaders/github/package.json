@@ -2,7 +2,7 @@
   "name": "@graphql-toolkit/github-loader",
   "version": "0.7.4",
   "description": "A set of utils for faster development of GraphQL tools",
-  "repository": "git@github.com:dotansimha/graphql-toolkit.git",
+  "repository": "git@github.com:ardatan/graphql-toolkit.git",
   "author": "Dotan Simha <dotansimha@gmail.com>",
   "license": "MIT",
   "scripts": {
